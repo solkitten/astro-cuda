@@ -1,0 +1,13 @@
+[package]
+name = "astro_cuda"
+version = "0.1.0"
+edition = "2018"
+build = "build.rs"
+keywords = ["bindings", "cuda", "gpu"]
+categories = ["api-bindings"]
+repository = "https://github.com/sol.kitten/astro-cuda"
+readme = "README.md"
+description = "Bindings for NVIDIA® CUDA™ Driver API in Rust"
+
+[build-dependencies]
+bindgen = "0.63"
